@@ -1,0 +1,25 @@
+.card{
+  border: 1px solid var(--clr-bg);
+  border-radius: 6px;
+  width: 100%;
+  padding: 0 0 24px;
+  background-color: var(--clr-bg);
+  text-align: center;
+  box-shadow: 0 0 3px 2px var(--clr-text);
+
+
+}
+.cover{
+  width: 100%;
+  aspect-ratio: 2/3;
+  border-radius: 6px;
+}
+
+.title{
+  color: var(--clr-text);
+  font-weight: 700;
+}
+
+.genre{
+  color: #c5c5c5
+}
