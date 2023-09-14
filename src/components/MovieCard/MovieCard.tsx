@@ -1,5 +1,5 @@
 import styles from './MovieCard.module.scss'
-import {IMovieCard} from '../../Types'
+import {IMovieCard} from '../../types'
 import {Link} from 'react-router-dom'
 
 

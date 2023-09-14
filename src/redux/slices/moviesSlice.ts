@@ -48,5 +48,8 @@ const initialState: IMoviesState = {
 
 export const moviesSlice = createSlice({
   name: 'movieSlice',
-  initialState
+  initialState,
+  reducers: {}
 })
+
+export const moviesReducer = moviesSlice.reducer
