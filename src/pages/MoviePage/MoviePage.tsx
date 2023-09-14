@@ -28,20 +28,24 @@ export const MoviePage = () => {
             <p className={styles.desc}>{movieItem.description}</p>
             <div className={styles.info}>
               <div className={styles.infoLabel}>
-                <span>Время сеанса</span>
+                <span>Название</span>
+                <span>Жанр</span>
                 <span>Продолжительность</span>
                 <span>Страна</span>
                 <span>год</span>
+                <span>Время сеанса</span>
               </div>
               <div className={styles.infoValue}>
+                <span>{movieItem.title}</span>
+                <span>{movieItem.genre}</span>
+                <span>{movieItem.duration} мин.</span>
+                <span>{movieItem.country}</span>
+                <span>{movieItem.year}г.</span>
                 <ul className={styles.times}>
                   {movieItem.times?.map((item, idx) => (
                     <li key={idx} className={styles.timesItem}>{item}</li>
                   ))}
                 </ul>
-                <span>{movieItem.duration} мин.</span>
-                <span>{movieItem.country}</span>
-                <span>{movieItem.year}г.</span>
               </div>
             </div>
           </div>
