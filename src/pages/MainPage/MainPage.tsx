@@ -2,11 +2,8 @@ import styles from './MainPage.module.scss'
 import {MovieList, Title} from '../../components'
 
 
-
-
-
-
 export const MainPage = () => {
+
 
   return (
     <main className={styles.main}>

@@ -6,7 +6,7 @@ export interface IMovieCard {
   genre: string
 }
 
-export type Country = 'США' | 'Россия' | 'Индия' | 'Китай' | 'Великобритания'
+export type Country = 'США' | 'Россия' | 'Индия' | 'Китай' | 'Великобритания' | 'Корея' | 'Франция' | 'Бельгия'
 
 export interface IMovie extends IMovieCard{
   description: string

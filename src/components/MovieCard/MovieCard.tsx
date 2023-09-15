@@ -10,7 +10,7 @@ interface IMovieCardProps {
 export const MovieCard = ({data}: IMovieCardProps) => {
 
   return (
-    <Link to='movie' className={styles.card}>
+    <Link to={`/movie/${data.id}`} className={styles.card}>
       <div>
         <img src={data.imgUrl} alt={data.alt} className={styles.cover}/>
       </div>
